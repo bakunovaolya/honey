@@ -1,0 +1,29 @@
+*{
+   /* box-sizing: border-box;*/
+}
+.headerWrapper{
+    /*height: 3.75rem;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: content-box;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.imgLogo{
+    width: 4.375rem;
+    padding: 0.5rem;
+}
+.navItem{
+    padding: 1.25rem 1.875rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navItem:hover{
+    color: darkorange;
+}
+.active{
+    color: darkorange;
+    border-bottom: 0.25rem solid darkorange;
+}

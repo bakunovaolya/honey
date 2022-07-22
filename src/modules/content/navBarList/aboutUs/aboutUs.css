@@ -1,0 +1,54 @@
+.aboutUsWrapper{
+    background-color: #f7f3f0;
+    flex-grow: 1;
+}
+.aboutUsWrapperInside{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: auto;
+    padding: 3.25rem 0;
+
+}
+
+.aboutUsTextWrapper{
+    padding: 1rem;
+    max-width: 60%;
+
+}
+.aboutUsTitle{
+    font-size: 3.25rem;
+    font-family: Georgia;
+    letter-spacing: 0.125rem;
+    text-align: left;
+    max-width: 55rem;
+    padding: 1rem 0;
+    /*font-size: 3.25rem;
+    font-family: Georgia;*/
+
+}
+.aboutUsText{
+    font-size: 1.3125rem;
+    font-family: Arial;
+    text-align: left;
+    line-height: 160%;
+
+}
+.aboutUsImgWrapper{
+    padding: 1rem;
+}
+.aboutUsImg{
+    max-width: 28.625rem;
+}
+.aboutUsImgWrapper{
+    display: flex;
+    margin:0 1rem;
+    gap:1rem;
+    max-height: 30rem;
+    /*justify-content: space-between;*/
+
+}
+.imgAbout{
+    object-fit: cover;
+    max-width: 33%;
+}

@@ -1,0 +1,51 @@
+.homeWrapper{
+    flex-grow: 1;
+}
+.imgWrapper{
+    display: flex;
+    gap:1rem;
+    /*justify-content: space-between;*/
+    margin: 1rem;
+}
+.imgHome{
+    max-width: 33%;
+    object-fit: cover;
+}
+.advantagesWrapper{
+    max-width: 71.25rem;
+    margin: auto;
+}
+.iconHome{
+    width: 4rem;
+    height: 4rem;
+
+}
+.advantagesBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.advantagesTitle{
+    font-size: 3.25rem;
+    font-family: Georgia;
+    letter-spacing: 0.125rem;
+    text-align: left;
+    max-width: 55rem;
+    padding: 1rem 0;
+}
+.advantagesSubTitle{
+    font-size: 1.3125rem;
+    font-family: Arial;
+    text-align: left;
+    padding: 1rem 0;
+}
+.advantage{
+    display: flex;
+    padding: 0 1rem;
+}
+.advantagesText{
+    font-family: Georgia;
+    font-size: 1.5rem;
+    padding: 0 1.2rem;
+    text-align: left;
+}

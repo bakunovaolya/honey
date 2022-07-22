@@ -1,0 +1,9 @@
+.footerWrapper{
+   /* height: 8vh;*/
+    flex-shrink: 0;
+    padding: 1.2rem 0;
+}
+.footer{
+    font-size: 1.2rem;
+
+}

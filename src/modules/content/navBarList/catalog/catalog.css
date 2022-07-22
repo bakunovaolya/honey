@@ -1,0 +1,38 @@
+.catalogWrapper {
+    flex-grow: 1;
+}
+.catalogTitleWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 71.25rem;
+    margin: auto;
+}
+.catalogFirstTitle{
+    font-size: 3.125rem;
+    font-family: Georgia;
+    text-align: left;
+    padding: 1rem 0;
+}
+.catalogSecondTitle{
+    font-size: 3.125rem;
+    font-family: Georgia;
+    text-align: left;
+    color: darkorange;
+}
+.catalogTitle{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding:0 1rem;
+}
+.catalogTitleText{
+    max-width: 33%;
+    font-weight: 400;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding:0 1rem;
+    margin-top: 2rem;
+}
